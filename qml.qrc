@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainForm.ui.qml</file>
+        <file>main.cpp</file>
+        <file>Ressources/Ecran accueil/amis.png</file>
+        <file>Ressources/Ecran accueil/cam.png</file>
+        <file>Ressources/Ecran accueil/galerie.png</file>
+        <file>Ressources/Ecran accueil/icons8-photo-gallery (1).png</file>
+        <file>Ressources/Ecran accueil/icons8-photo-gallery (2).png</file>
+        <file>Ressources/Ecran accueil/icons8-photo-gallery.png</file>
+        <file>Ressources/Ecran accueil/palmares.png</file>
+        <file>Ressources/Ecran camera/frontCam.png</file>
+        <file>Ressources/Ecran camera/frontCam2.png</file>
+        <file>Ressources/Ecran camera/take.png</file>
+        <file>Ressources/Ecran capture/otherPicture.png</file>
+        <file>Ressources/Ecran capture/quit.png</file>
+        <file>Ressources/Ecran capture/send.png</file>
+        <file>RssMode.qml</file>
+        <file>EcranCamera/EcranCamera.qml</file>
+        <file>EcranGalerie/EcranGalerie.qml</file>
+        <file>EcranPalmares/EcranPalmares.qml</file>
+        <file>EcranAmis/EcranAmis.qml</file>
+        <file>EcranGalerie/Photo.qml</file>
+        <file>Ressources/Ecran galerie/selected.png</file>
+        <file>Ressources/Ecran galerie/feedback.png</file>
+        <file>EcranEnvoi/EcranEnvoi.qml</file>
+        <file>Ressources/background.jpg</file>
+        <file>Ressources/images1.jpg</file>
+        <file>Ressources/images2.jpg</file>
+        <file>Ressources/images3.jpg</file>
+        <file>EcranEnvoi/user.png</file>
+        <file>EcranCamera/EcranRecap.qml</file>
+        <file>EcranCamera/EcranVote.qml</file>
+    </qresource>
+</RCC>
