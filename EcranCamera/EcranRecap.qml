@@ -10,7 +10,6 @@ import QtPositioning 5.8
 Rectangle {
     id : ecranRecap
     anchors.fill: parent
-
     property var listPhotos
 
     Image{

@@ -66,13 +66,13 @@ Item {
                             if(pageGalerie.nbSelected < 3){
                                 if(check.visible == true){
                                     check.visible = false
-                                   // selectedPhotos.remove(pageGalerie.nbSelected)
+                                    selectedPhotos.remove(pageGalerie.nbSelected)
                                     pageGalerie.nbSelected -=1
 
                                 }else{
                                     check.visible = true
                                     pageGalerie.nbSelected +=1;
-                                    //selectedPhotos.append({"url": fileURL })
+                                    selectedPhotos.append({"imagePath": JSON.stringify(fileURL).replace('file:///', '') })
 
                                 }
                             }else{
@@ -109,22 +109,18 @@ Item {
         MouseArea{
             anchors.fill: parent
             onPressed:{
-                envoiLoader.source = "../EcranCamera/EcranRecap.qml"
-               // pageGalerie.visible = false
+                envoiLoader.setSource("../EcranCamera/EcranRecap.qml", {"listPhotos": selectedPhotos })
             }
         }
     }
 }
+    ListModel{
+         id: selectedPhotos
+     }
     Loader {
         anchors.fill: parent
         id: envoiLoader; focus: true }
-  /* ListModel{
-       id: selectedPhotos
-   }
 
-   EcranEnvoi{
-       visible: false
-       selectedPhotosList: selectedPhotos
-   }*/
+
 
 }
