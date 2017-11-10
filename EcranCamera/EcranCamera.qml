@@ -180,6 +180,12 @@ Item {
                 fillMode: Image.PreserveAspectFit
                 smooth: true
                 source: ("../Ressources/Ecran capture/otherPicture.png")
+                visible : window.compteurPhotoPrise < 3 ? true : false
+            }
+            Button{
+                text: "Suivant"
+                highlighted: true
+                visible : window.compteurPhotoPrise == 3 ? true : false
             }
             MouseArea {
                 anchors.fill: parent
